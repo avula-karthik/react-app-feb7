@@ -1,7 +1,65 @@
 .App {
   text-align: center;
+  background: linear-gradient(45deg, #FF5F6D, #FFC371);
+}
+input{
+  padding: 15px;
+  width: 25%;
+  border-radius: 10px;
+  font-size: large;
+}
+form{
+  margin-top: 10px;
+}
+.footerDiv{
+  border: 3px solid grey;
+
+}
+table{
+  border: 2px solid black;
+  width: 100%;
+}
+table td{
+  border: 2px solid red;
+  height: 50px;
+}
+button{
+  height: auto;
+  margin-top: 10px;
+  width: 21%;
+  font-size: large;
+  border-radius: 5px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: linear-gradient(90deg, red,blue,blue, blue,blue,red);
 }
 
+li {
+  float: left;
+  width: 25%;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.menuDiv{
+  border:3px solid gray;
+  height: 3em;
+  
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
