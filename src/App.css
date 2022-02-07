@@ -26,6 +26,7 @@ table td{
 button{
   height: auto;
   margin-top: 10px;
+  margin-bottom: 10px;
   width: 21%;
   font-size: large;
   border-radius: 5px;
